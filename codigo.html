@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Login | Express Letter</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="nav-logo-img">
+                <img src="img/logo (2).png">
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="index.html" class="link active">Home</a></li>
+                    <li><a href="page_service.html" class="link">Serviços</a></li>
+                    <li><a href="sobre.html" class="link">Sobre</a></li>
+                    <li><a href="contato.html" class="link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href='index.html'><button class="btn white-btn" id="loginBtn">Voltar</button></a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+        <main id="container">
+            <form id="login_form">
+
+                <!--FORM HEADER-->
+
+                <div id="form_header">
+                    <h1>Informe seu E-mail</h1>
+                    <i id="mode_icon" class="fa-solid fa-moon"></i>
+                </div>
+                <center>
+                    <div>Código enviado</div>
+                </center>
+
+                <!--EMAIL-->
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                <!--PASSWORD-->
+
+                <div class="input-box">
+                    <label for="password">
+                        Código
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                </div>
+                <!--LOGIN BUTTON-->
+
+                <button type="submit" id="login_button">
+                    Enviar
+                </button>
+
+            </form>
+        </main>
+</body>
+
+</html>
